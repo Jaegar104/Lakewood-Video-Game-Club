@@ -17,13 +17,22 @@ font-family: 'Bungee Shade', cursive;
 font-family: 'UnifrakturCook', cursive;
 font-family: 'Libre Barcode 39 Text', cursive; */
 body {
-  background-image: url("LVGCBack.png");
+  background-image: url("LVGCWallpaper.png");
   font-family: 'Lilita One', cursive;
   text-decoration-color: white;
   background-size: cover;
   background-attachment: fixed;
 }
-
+title{
+  font-family: 'Press Start 2P', cursive;
+  background: #a6a6a699;
+  color: Black;
+  border-radius: 15px;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  text-decoration-color: black;
+}
 #image {
   display: flex;
   align-items: center;
@@ -97,7 +106,7 @@ li a:hover:not(.active) {
 }
 
 article {
-  background: #ffffff88;
+  background: #a6a6a6;
   max-width: 800px;
   margin: 0 auto;
   border-radius: 15px;
@@ -113,7 +122,7 @@ footer {
 }
 .Facebob {
   background-color: white;
-  
+
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
