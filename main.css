@@ -23,9 +23,19 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-title{
+.bob {
   font-family: 'Press Start 2P', cursive;
   background: #a6a6a699;
+  color: Black;
+  border-radius: 15px;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  text-decoration-color: black;
+}
+#title {
+  font-family: 'Press Start 2P', cursive;
+  background: #D3D3D399;
   color: Black;
   border-radius: 15px;
   width: 270px;
@@ -165,14 +175,5 @@ footer {
 
   ol {}
 
-  #title {
-    font-family: 'Press Start 2P', cursive;
-    background: #D3D3D399;
-    color: Black;
-    border-radius: 15px;
-    width: 270px;
-    height: 150px;
-    text-align: center;
-    text-decoration-color: black;
-  }
+
 }
