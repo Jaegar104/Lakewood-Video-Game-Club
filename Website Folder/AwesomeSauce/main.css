@@ -24,7 +24,7 @@ body {
   background-attachment: fixed;
 }
 .bob {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Lilita One', cursive;
   background: #a6a6a688;
   color: Black;
   border-radius: 15px;
@@ -34,7 +34,7 @@ body {
   text-decoration-color: black;
 }
 #title {
-  
+  font-family: 'Lilita One', cursive;
   background: #D3D3D399;
   color: Black;
   border-radius: 15px;
