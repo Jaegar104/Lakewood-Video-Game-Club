@@ -1,0 +1,192 @@
+/*   <link href="https://fonts.googleapis.com/css?family=Bangers|Bowlby+One+SC|Bungee|Bungee+Shade|Carter+One|Faster+One|Hind+Madurai|Libre+Barcode+39+Text|Londrina+Solid|Luckiest+Guy|Major+Mono+Display|Press+Start+2P|Sarala|Shojumaru|Six+Caps|Staatliches|UnifrakturCook:700" rel="stylesheet"> */
+/* font-family: 'Hind Madurai', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Sarala', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Faster One', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Libre Barcode 39 Text', cursive; */
+body {
+  background-image: url("LVGCWallpaper.png");
+  font-family: 'Lilita One', cursive;
+  text-decoration-color: white;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bob {
+  font-family: 'Lilita One', cursive;
+  background: #a6a6a688;
+  color: Black;
+  border-radius: 15px;
+  width: auto;
+  height:auto;
+  text-align: center;
+  text-decoration-color: black;
+}
+#title {
+  font-family: 'Lilita One', cursive;
+  background: #D3D3D399;
+  color: Black;
+  border-radius: 15px;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  text-decoration-color: black;
+}
+#image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  background-color: #ffffff88;
+  border-radius: 15px;
+}
+
+.span-col-2 {
+  grid-column: span 2 / auto;
+  background: #D3D3D399;
+  width: 900px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: #456789;
+  width: 250px;
+  height: 220px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a6a6a688;
+}
+
+li {
+  float: left;
+  position: sticky;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: navy;
+}
+
+.active {
+  background-color: #A9A9A9;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+  background: #ffffff88;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 15px;
+  text-align: center;
+  color: Black;
+  border-radius: 15px;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  text-decoration-color: black;
+}
+}
+
+footer {
+  float: right;
+  background: #ffffff88;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+}
+.Facebob {
+  background-color: white;
+}
+
+/*   <div id="box7"> </div> */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  body {
+    text-align: left;
+    text-decoration-color: white;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  nav {
+    background: #456789;
+    width: 250px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .span-col-2 {
+    grid-column: span 2 / auto;
+    font-family: 'Lilita One', cursive;
+    background: #ffffff88;
+    color: Black;
+    border-radius: 15px;
+    width: 270px;
+    height: 150px;
+    text-align: center;
+    text-decoration-color: black;
+  }
+  }
+
+  .span-col-3 {
+    grid-column: span 3 / auto;
+  }
+
+  ol {}
+
+
+}
